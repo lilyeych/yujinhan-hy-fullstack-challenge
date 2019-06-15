@@ -1,0 +1,41 @@
+html, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.5;
+  color: #000000;
+}
+
+html, p {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.ui.items>.item .extra p,
+.ui.card>.extra p,
+.ui.cards>.card>.extra p {
+  font-size: 14px;
+}
+
+
+.header,
+.movie-detail {
+  padding: 50px 0;
+}
+
+.footer {
+  padding: 100px 0 30px;
+  text-align: center;
+}
+
+.footer img {
+  display: inline-block;
+}
