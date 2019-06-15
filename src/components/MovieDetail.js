@@ -24,10 +24,10 @@ const MovieDetail = ({ movie }) => {
             <p>Description: {overview}</p>
           </div>
           <div className="extra">
-            <p>Released date: {release_date}</p>
-            { tagline && <p>Tag line: {tagline}</p> }
-            <p>Runtime: {runtime} min</p>
-            <p>Genre: {genreList}</p>
+            <p><strong>Released date</strong>: {release_date}</p>
+            { tagline && <p><strong>Tag line</strong>: {tagline}</p> }
+            <p><strong>Runtime</strong>: {runtime} min</p>
+            <p><strong>Genre</strong>: {genreList.join(', ')}</p>
           </div>
         </div>
       </div>
