@@ -6,7 +6,7 @@ const MoviesList = ({ movies, onMovieSelect })  => {
     return <MovieCard onMovieSelect={onMovieSelect} movie={movie} key={movie.id}/>
   });
 
-  return <div className="ui four column grid stackable cards">{movie}</div>;
+  return <div className="movie-list ui four column grid stackable cards">{movie}</div>;
 };
 
 export default MoviesList;
