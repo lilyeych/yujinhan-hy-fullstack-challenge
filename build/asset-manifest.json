@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/yujinhan-hy-fullstack-challenge/static/css/main.7e3188c9.chunk.css",
+    "main.js": "/yujinhan-hy-fullstack-challenge/static/js/main.7852d696.chunk.js",
+    "main.js.map": "/yujinhan-hy-fullstack-challenge/static/js/main.7852d696.chunk.js.map",
+    "runtime~main.js": "/yujinhan-hy-fullstack-challenge/static/js/runtime~main.d6dc1636.js",
+    "runtime~main.js.map": "/yujinhan-hy-fullstack-challenge/static/js/runtime~main.d6dc1636.js.map",
+    "static/js/2.f8876abc.chunk.js": "/yujinhan-hy-fullstack-challenge/static/js/2.f8876abc.chunk.js",
+    "static/js/2.f8876abc.chunk.js.map": "/yujinhan-hy-fullstack-challenge/static/js/2.f8876abc.chunk.js.map",
+    "index.html": "/yujinhan-hy-fullstack-challenge/index.html",
+    "precache-manifest.f42b5181a7271b3f93561a74466e2cd7.js": "/yujinhan-hy-fullstack-challenge/precache-manifest.f42b5181a7271b3f93561a74466e2cd7.js",
+    "service-worker.js": "/yujinhan-hy-fullstack-challenge/service-worker.js",
+    "static/css/main.7e3188c9.chunk.css.map": "/yujinhan-hy-fullstack-challenge/static/css/main.7e3188c9.chunk.css.map",
+    "static/media/the-movie-db-logo.svg": "/yujinhan-hy-fullstack-challenge/static/media/the-movie-db-logo.22af8ff1.svg"
+  }
+}
