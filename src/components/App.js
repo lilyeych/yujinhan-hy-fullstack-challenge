@@ -20,11 +20,8 @@ class App extends React.Component {
         primary_release_year: year
       }
     });
-    const filteredMovies = response.data.results.filter(function(movie) {
-      return movie.popularity >= 10;
-    });
+    this.setState({ movies: response.data.results.filter(movie => movie.popularity >= 10) });
 
-    this.setState({ movies: filteredMovies });
   };
 
   getSelectedMovieDetails = async (id) => {
