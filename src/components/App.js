@@ -16,7 +16,7 @@ class App extends React.Component {
   searchMovies = async (year) => {
     const response = await themoviedb.get('/discover/movie', {
       params: {
-        sort_by: 'release_date.asc',
+        sort_by: 'primary_release_date',
         primary_release_year: year
       }
     });
