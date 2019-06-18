@@ -23,13 +23,8 @@ class App extends React.Component {
     const filteredMovies = response.data.results.filter(function(movie) {
       return movie.popularity >= 10;
     });
-    this.setState({
-      movies: filteredMovies
-    }, () => {
-      console.log(this.state.movies);
 
-      this.getSelectedMovieDetails(this.state.movies[0].id);
-    })
+    this.setState({ movies: filteredMovies });
   };
 
   getSelectedMovieDetails = async (id) => {

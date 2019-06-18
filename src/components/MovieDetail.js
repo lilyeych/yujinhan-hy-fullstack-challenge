@@ -2,7 +2,7 @@ import React from 'react';
 
 const MovieDetail = ({ movie }) => {
   if (movie.length === 0) {
-    return <div>Loading...</div>;
+    return <div>Please select a movie.</div>;
   }
 
   const { original_title, release_date, poster_path, overview, genres, tagline, runtime } = movie;
