@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yujinhan-hy-fullstack-challenge/precache-manifest.f42b5181a7271b3f93561a74466e2cd7.js"
+  "/yujinhan-hy-fullstack-challenge/precache-manifest.7da68062435241b8b9e051484ed24260.js"
 );
 
 self.addEventListener('message', (event) => {

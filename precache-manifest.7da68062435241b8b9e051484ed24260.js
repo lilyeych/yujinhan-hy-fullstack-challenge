@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68a245ebc18c1fca9075d2a312c7ec8f",
+    "revision": "d581152b1d4c637bbaee82f2bfdf6233",
     "url": "/yujinhan-hy-fullstack-challenge/index.html"
   },
   {
-    "revision": "ac819b1285e66616649b",
+    "revision": "49dfe97e4f0d0ee6df3c",
     "url": "/yujinhan-hy-fullstack-challenge/static/css/main.7e3188c9.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yujinhan-hy-fullstack-challenge/static/js/2.f8876abc.chunk.js"
   },
   {
-    "revision": "ac819b1285e66616649b",
-    "url": "/yujinhan-hy-fullstack-challenge/static/js/main.7852d696.chunk.js"
+    "revision": "49dfe97e4f0d0ee6df3c",
+    "url": "/yujinhan-hy-fullstack-challenge/static/js/main.6b5a1151.chunk.js"
   },
   {
     "revision": "beca30924ee9e574fb21",
