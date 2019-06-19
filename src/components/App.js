@@ -16,11 +16,10 @@ class App extends React.Component {
   searchMovies = async (year) => {
     const response = await themoviedb.get('/discover/movie', {
       params: {
-        sort_by: 'primary_release_date',
         primary_release_year: year
       }
     });
-    this.setState({ movies: response.data.results.filter(movie => movie.popularity >= 10) });
+    this.setState({ movies: response.data.results.filter(movie => movie.popularity >= 10).sort((a,b) => (a.release_date > b.release_date) ? 1 : ((b.release_date > a.release_date) ? -1 : 0)) });
 
   };
 
